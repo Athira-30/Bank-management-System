@@ -1,0 +1,41 @@
+/* FormStyles.css */
+
+div{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2zpVMUW5OoaPRdFyZIe1LorUCzKin6I8b0w&s");
+}
+.form-container {
+   
+    padding: 100px;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    border: none;
+    font-weight: bold;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
